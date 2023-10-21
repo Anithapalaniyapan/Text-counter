@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Counter</title>
+  </head>
+  <style>
+    body {
+      background-color: burlywood;
+      font-family: sans-serif;
+    }
+
+    .container {
+      margin: 20px;
+    }
+    .input1 {
+      margin-top: 100px;
+    }
+    #inputText {
+      margin-top: 20px;
+      align-items: center;
+    }
+    textarea {
+      width: 50%;
+    }
+    p {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <center>
+      <div class="container">
+        <div class="input1">
+          <label for="inputText">Text Counter</label>
+        </div>
+        <textarea
+          id="inputText"
+          rows="5"
+          cols="50"
+          placeholder="Type your text here..."
+          style="background-color: white; border: 3px solid brown; width: 400px"
+        ></textarea>
+        <p><span id="charCount">0</span> Character</p>
+      </div>
+    </center>
+    <script src="txtcounter.js"></script>
+  </body>
+</html>
